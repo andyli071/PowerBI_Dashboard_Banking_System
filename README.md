@@ -1,4 +1,4 @@
-# Banking Analytics Dashboard
+# Banking Analytics Dashboard (Power BI + Python)
 
 This project simulates a realistic banking system using synthetic data generated with Python and Faker. It includes customer information, bank accounts, financial transactions, and loans — all linked together in a relational model ready for Power BI visualization.
 
