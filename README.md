@@ -19,7 +19,7 @@ This project simulates a realistic banking system using synthetic data generated
 ## Tools Used
 
 - **Python** (`pandas`, `faker`, `random`) for datasets sitmulation
-- **Power BI for visualization and analysis
+- **Power BI** for visualization and analysis
 - **Jupyter Notebook / Colab** for running and editing scripts
 
 ### What’s inside
