@@ -6,7 +6,7 @@ This project simulates a realistic banking system using synthetic data generated
 **Open the interactive Power BI report:** [Dashboard](https://app.powerbi.com/reportEmbed?reportId=3f46ed1f-84f2-467c-bf11-8c3af851cd64&autoAuth=true&ctid=8322cefd-0a4c-4e2c-bde5-b17933e7b00f&actionBarEnabled=true)
 
 
-### Dataset Overview
+### Dataset Overview (actual csv included in simulated datasets folder)
 
 | Table         | Description                                                |
 |---------------|------------------------------------------------------------|
@@ -35,9 +35,5 @@ This project simulates a realistic banking system using synthetic data generated
 - `Two-Product Penetration %` (≥1 account **and** ≥1 loan, snapshot)
 
 
-### Files Included
-- customers.csv
-- accounts.csv
-- transcations.csv
-- loans.csv
+
 
