@@ -35,6 +35,12 @@ This project simulates a realistic banking system using synthetic data generated
 - `Active Customers YoY %` (transaction-based)
 - `Two-Product Penetration %` (≥1 account **and** ≥1 loan, snapshot)
 
+### Notes & Assumptions
+- **Flow KPIs** (Deposits/Withdrawals/Net) are driven by the **Date** table (e.g., Month/Quarter views).  
+- Dataset is fully synthetic (generated with Pandas + Faker) and safe for public sharing.
 
+### Future Improvements
 
-
+- Add `AccountOpenDate` / `AccountCloseDate` and `InvestmentAccount/ InvestmentAccountType` to enable true customer base growth (new vs churn) and cohort analysis.
+- Introduce a synthetic **Payments** table to compute `RemainingPrincipal`, **delinquency**, and **NPL** rates.
+- Add refresh pipeline (scheduled CSV refresh or Lakehouse connector); consider **Incremental Refresh** for `transcations`.
